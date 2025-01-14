@@ -1,0 +1,43 @@
+user:
+  full_name:
+  contact:
+    phone:
+    email: youremail@email.com
+    linkedin:
+    github:
+  resume_path: /path/to/resume.pdf
+
+google_email: "youremail@email.com"
+google_password: "password"
+
+# Login credentials for various job sites - Indeed will likely not work with this - it does sometimes
+credentials:
+  linkedin:
+    username: youremail@email.com
+    password: password
+  gradconnect:
+    username: youremail@email.com
+    password: password
+  seek:
+    username: youremail@email.com
+    password: password
+
+# Job preferences for searching and applying adjust as ddesired
+job_preferences:
+  role_types: [internship, entry-level, junior]
+  job_titles: [software engineer, programmer, web developer, software developer.]
+  locations: [melbourne, brisbane, remote]
+  minimum_pay: 60000
+  years_of_experience: 2
+
+# Application settings can add additional such as disability, ethnicity, ect
+application_settings:
+  cover_letter_template: /path/to/cover_letter_template.txt
+  default_fields:
+  Gender:
+  Nationality:
+
+
+# Logging and tracking applied jobs - to be DB
+logging:
+  applied_jobs_db: /path/to/applied_jobs_db
